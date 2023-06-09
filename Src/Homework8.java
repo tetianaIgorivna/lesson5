@@ -7,7 +7,6 @@ public class Homework8 {
 
         Random random = new Random();
         int riddledNumber = random.nextInt(10);
-        System.out.print("riddledNumber="+riddledNumber);
 
         System.out.print("Спроба №1. Введіть ваш варіант: ");
         Scanner attempt_1 = new Scanner(System.in);
